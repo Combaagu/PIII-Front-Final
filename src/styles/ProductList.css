@@ -1,0 +1,58 @@
+.product-list-container {
+  background-color: #f4f4f9; /* Color de fondo suave */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-list-header {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-bottom: 30px;
+}
+
+.product-list-header .ant-typography {
+  color: #333;
+}
+
+.add-product-btn, .ant-btn-logout {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 16px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.add-product-btn:hover, .ant-btn-logout:hover {
+  background-color: #45a049;
+}
+
+.edit-btn, .delete-btn {
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.modal-edit .ant-modal-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-edit .ant-input {
+  border-radius: 5px;
+}
+
+.ant-btn-logout {
+  background-color: #FF3B30;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 16px;
+  color: white;
+}

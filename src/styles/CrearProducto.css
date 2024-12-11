@@ -1,0 +1,58 @@
+.add-product-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-product-container h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-product-container .ant-input {
+    border-radius: 6px;
+    margin-bottom: 12px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .add-product-container .submit-btn {
+    background-color: #4c93af;  
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .add-product-container .submit-btn:hover {
+    background-color: #d8cdcd; 
+    transform: scale(1.05); 
+  }
+  
+  .add-product-container .redirect-btn {
+    background-color: #1890ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .add-product-container .redirect-btn:hover {
+    background-color: #40a9ff; 
+    transform: scale(1.05); 
+  }
+  
+  .add-product-container .ant-space-item {
+    width: 100%;
+  }
+  
